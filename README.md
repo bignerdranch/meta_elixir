@@ -1,20 +1,9 @@
-# MetaElixir
+# Some Elixir metaprogramming examples
 
-**TODO: Add description**
+See https://github.com/bignerdranch/meta_elixir/blob/master/test/meta_elixir_test.exs
 
-## Installation
+Run the tests:
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add meta_elixir to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:meta_elixir, "~> 0.0.1"}]
-        end
-
-  2. Ensure meta_elixir is started before your application:
-
-        def application do
-          [applications: [:meta_elixir]]
-        end
-
+```
+$ mix test
+```
